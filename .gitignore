@@ -4,6 +4,7 @@ __pycache__/
 launcher/.gradle/
 launcher/build/
 launcher/app/build/
+launcher/legacy/build/
 launcher/local.properties
 # your own TV's dumps (serial, android_id, device names) stay local
 backup/
@@ -14,3 +15,8 @@ backup/
 *.aab
 launcher/hs_err_pid*.log
 launcher/replay_pid*.log
+
+# Local device data and private signing material
+backups/
+*.jks
+*.keystore
